@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(32, 220, 230);
+}
+
+header {
+    background-color: rgb(235, 235, 53);
+    width: 95%;
+    margin: auto;
+}
+
+.top-header {
+    /* background-color: yellow; */
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    width: 18%;
+    /* background-color: aliceblue; */
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    width: 65%;
+    /* background-color: aliceblue; */
+    /* padding: 12px 0px; */
+}
+
+.menu nav ul {
+    float: right;
+    padding-right: 30px;
+}
+
+.menu nav ul li {
+    display: inline-block;
+    padding: 20px 25px;
+}
+
+.menu nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.menu nav ul li:hover {
+    padding: 20px 30px;
+    background-color: rgb(238, 106, 24);
+    font-style: italic;
+    border-radius: 10px;
+}
+
+.menu nav ul li a:hover {
+    color: aliceblue;
+}
+
+.btm-h {
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btm-h-tx {
+    /* background-color: aquamarine; */
+    width: 40%;
+    /* height: 48%; */
+}
+
+.btm-h-tx h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btm-h-tx h2 span {
+    color: rgb(246, 69, 5);
+    font-style: italic;
+}
+
+.btm-h-tx p {
+    font-style: italic;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.btm-h-tx div {
+    /* background-color: brown; */
+}
+
+.btm-h-tx div a {
+    background-color: green;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btm-h-tx div a:hover {
+    background-color: rgba(224, 41, 230, 0.724);
+    color: chartreuse;
+    font-style: italic;
+}
+
+.btm-h-img {
+    /* background-color: brown; */
+    height: 80%;
+    width: 25%;
+}
+
+.btm-h-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
